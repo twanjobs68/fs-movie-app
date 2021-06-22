@@ -3,26 +3,23 @@ body{
 font-size: large;
 padding:0;
 margin:0;
-background: url(../twans_fs_movie_app/Images/Riyah.jpg);
-background-size: cover;
-
-
+background-image: url("/twans_fs_movie_app/Images/pstars.jpg");
+background-repeat: no-repeat ;
+/*background-size: cover;*/
 }
 
-#loginheader{
-    color:rgb(194, 206, 182);
+.mbox{
+    width:250px;
+    padding:30px;
+    top:40%;
+    left: 40%;
+    transform: translate(50%,50%);
+    background-color: salmon;
+    text-align: center;
 }
 
-#loginbox{
-    color:green;
-    width: 100px;
-    height: 100px;
-}
 
-#enterbtn{
-    color:red;
-}
-.box h1{
+h2{
     text-transform: uppercase;
     font-weight: 500px;
     color: black;
@@ -30,28 +27,30 @@ background-size: cover;
 /* when we click on text or password field it should enlarge */
 
 
-.box input[type="text"],
-.box input[type="password"] 
+.mbox input[type="text"],.box input[type="password"] 
 {
 border: 1px solid green;
 width:200px;
 height: 200px;
-border-radius:15px;
+border-radius:25px;
 margin: 15px auto;
 padding:10px 5px;
 outline:none;
 color: yellow;
 transition: 0 20px;
+text-align: center;
+outline: white;
 }
 
   /* when clicking on text or pasword field the field should enlarge  */
-  .box input[type="text"]: focus,.box input[type="password"]:focus
+  .mbox input[type="text"] focus,.box input[type="password"]:focus
   {
   width: 200px;
   border-color: black;
   }
 
-  .box input[type="submit"]{
+/*submit button css*/
+  .mbox input[type="submit"]{
       border:0;
       border: 2px solid purple;
       display: block;
@@ -63,7 +62,7 @@ transition: 0 20px;
 
   }
 
-  .box input[type="submit"]:hover{
+  .mbox input[type="submit"]:hover{
       background: rgba(255, 166, 0, 0.76);
 
   }
