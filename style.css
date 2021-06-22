@@ -1,0 +1,24 @@
+body{
+
+font-size: large;
+padding:0;
+margin:0;
+}
+
+#loginheader{
+    color:purple;
+}
+
+#loginbox{
+    color:green;
+}
+
+#enterbtn{
+    color:red;
+/* .box h1{
+    text-transform: uppercase;
+    font-weight:500;
+    color:white;
+} */
+/* when we click on text or password field it should enlarge */
+}
