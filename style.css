@@ -3,22 +3,67 @@ body{
 font-size: large;
 padding:0;
 margin:0;
+background: url(../twans_fs_movie_app/Images/Riyah.jpg);
+background-size: cover;
+
+
 }
 
 #loginheader{
-    color:purple;
+    color:rgb(194, 206, 182);
 }
 
 #loginbox{
     color:green;
+    width: 100px;
+    height: 100px;
 }
 
 #enterbtn{
     color:red;
-/* .box h1{
-    text-transform: uppercase;
-    font-weight:500;
-    color:white;
-} */
-/* when we click on text or password field it should enlarge */
 }
+.box h1{
+    text-transform: uppercase;
+    font-weight: 500px;
+    color: black;
+}
+/* when we click on text or password field it should enlarge */
+
+
+.box input[type="text"],
+.box input[type="password"] 
+{
+border: 1px solid green;
+width:200px;
+height: 200px;
+border-radius:15px;
+margin: 15px auto;
+padding:10px 5px;
+outline:none;
+color: yellow;
+transition: 0 20px;
+}
+
+  /* when clicking on text or pasword field the field should enlarge  */
+  .box input[type="text"]: focus,.box input[type="password"]:focus
+  {
+  width: 200px;
+  border-color: black;
+  }
+
+  .box input[type="submit"]{
+      border:0;
+      border: 2px solid purple;
+      display: block;
+      margin: 15px auto;
+      cursor:pointer;
+      border-radius:0.25px;
+      transition: 0.20px;
+      color: white;
+
+  }
+
+  .box input[type="submit"]:hover{
+      background: rgba(255, 166, 0, 0.76);
+
+  }
