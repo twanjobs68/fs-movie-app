@@ -1,68 +1,81 @@
 body{
-
-font-size: large;
+/*font-size: large;
+font-family: sans-serif;
 padding:0;
-margin:0;
+margin:0;*/
 background-image: url("/twans_fs_movie_app/Images/pstars.jpg");
-background-repeat: no-repeat ;
-/*background-size: cover;*/
+/*background-repeat: no-repeat ;*/
+background-size: cover;
 }
 
-.mbox{
-    width:250px;
+.box{
+    width:300px;
     padding:30px;
-    top:40%;
-    left: 40%;
-    transform: translate(50%,50%);
-    background-color: salmon;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(82, 39, 39, 0.4);
     text-align: center;
 }
 
-
-h2{
+.box h1
+{
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/* h2{
     text-transform: uppercase;
     font-weight: 500px;
     color: black;
-}
+} */
 /* when we click on text or password field it should enlarge */
 
-
-.mbox input[type="text"],.box input[type="password"] 
+/*format username and password fields*/
+.box input[type="text"],.box input[type="password"] 
 {
-border: 1px solid green;
-width:200px;
-height: 200px;
-border-radius:25px;
+border: 0;
 margin: 15px auto;
+background: none;
 padding:10px 5px;
+display: block;
+border: 2px solid greenyellow;
 outline:none;
 color: yellow;
-transition: 0 20px;
+width:200px;
+border-radius: 25px;
+transition: 0.20px;
 text-align: center;
-outline: white;
+outline: none;
 }
 
   /* when clicking on text or pasword field the field should enlarge  */
-  .mbox input[type="text"] focus,.box input[type="password"]:focus
+  .box input[type="text"] focus,.box input[type="password"]:focus
   {
   width: 200px;
   border-color: black;
   }
 
 /*submit button css*/
-  .mbox input[type="submit"]{
-      border:0;
-      border: 2px solid purple;
-      display: block;
-      margin: 15px auto;
-      cursor:pointer;
-      border-radius:0.25px;
-      transition: 0.20px;
-      color: white;
+  .box input[type="submit"]{
+    border: 0;
+    margin: 15px auto;
+    background: none;
+    padding:10px 5px;
+    display: block;
+    border: 3px solid red;
+    outline:none;
+    color: white;
+    cursor:pointer;
+    border-radius: 25px;
+    transition: 0.20px;
+    text-align: center;
+    outline: none;
 
   }
 
-  .mbox input[type="submit"]:hover{
+  .box input[type="submit"]:hover{
       background: rgba(255, 166, 0, 0.76);
 
   }
