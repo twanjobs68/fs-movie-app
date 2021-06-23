@@ -9,3 +9,4 @@ allow user to click on favorites button(image) and have developer, selected info
 This is application is built using HTML, CSS Javascript, React JS, Java, Spring Boot, postgressql, Eclipse editor and Insomnia software to test backend
 
 This code is located on my github page at https://github.com/twanjobs68/fs-movie-app.git
+This application will authenticate the users name and password and alert them if login is successful
