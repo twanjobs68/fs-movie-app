@@ -30,15 +30,11 @@ div{
  h2
 {
     border: 1px solid black;
-    color: orange;
+    color: rgb(255, 238, 0);
     text-transform: uppercase;
     font-weight: 400;
 }
-/* h2{
-    text-transform: uppercase;
-    font-weight: 500px;
-    color: black;
-} */
+
 /* when we click on text or password field it should enlarge */
 
 /*format username and password fields*/
@@ -49,10 +45,11 @@ margin: 15px auto;
 background: none;
 padding:10px 5px;
 display: block;
-border: 2px solid rgba(114, 241, 24, 0.796);
+border: 2px dashed rgba(114, 241, 24, 0.796);
 outline:none;
-color: yellow;
+color: rgb(199, 198, 188);
 width:200px;
+text-shadow: peru;
 border-radius: 25px;
 transition: 0.20px;
 text-align: center;

@@ -8,10 +8,14 @@ function authenUser() {
     
     alert("Login unsuccessful! Please try again.");
     return false;
+
     }
     else
     {
         alert("Login successful!);")
     }
+
+    inuser = " ";
+    inpassword = "";
     
 }
