@@ -8,18 +8,21 @@ background-image: url("/twans_fs_movie_app/Images/pstars.jpg");
 background-size: cover;
 }
 
+div{
+    border: 4px solid orange;
+}
 .box{
     width: 250px;
     padding:25px;
+    position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    position: absolute;
     background: rgba(133, 111, 111, 0.4);
     text-align: center;
 }
 
- .box h1
+ h2
 {
     border: 1px solid black;
     color: orange;
@@ -33,7 +36,7 @@ background-size: cover;
 } */
 /* when we click on text or password field it should enlarge */
 
-/*format style for username and password fields*/
+/*format username and password fields*/
 .box input[type="text"],.box input[type="password"] 
 {
 border: 0;
@@ -41,13 +44,13 @@ margin: 15px auto;
 background: none;
 padding:10px 5px;
 display: block;
-text-align: center;
 border: 2px solid greenyellow;
-outline: none;
+outline:none;
 color: yellow;
 width:200px;
-border-radius: 35px;
-transition: 0.25px;
+border-radius: 25px;
+transition: 0.20px;
+text-align: center;
 outline: none;
 }
 
@@ -55,7 +58,7 @@ outline: none;
   .box input[type="text"] focus,.box input[type="password"]:focus
   {
   width: 200px;
-  border-color:green;
+  border-color: black;
   }
 
 /*submit button css*/
