@@ -7,7 +7,7 @@ function authenUser() {
     {
     
     alert("Login Successful! ");
-    <Searchapi/>
+   
     return false;
 
     }
