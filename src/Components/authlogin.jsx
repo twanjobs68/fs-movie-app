@@ -7,12 +7,13 @@ function authenUser() {
     {
     
     alert("Login Successful! ");
+    <Searchapi/>
     return false;
 
     }
     else
     {
-        alert("Login Unsuccessful!");
+        alert("Login Unsuccessful! Please try again. ");
     }
 
     inuser = " ";
