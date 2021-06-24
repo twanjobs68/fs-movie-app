@@ -1,19 +1,23 @@
 import React from 'react';
+
 import authenUser from './Authlogin';
 
-function myLogin(props) {
+
+function myLogin() {
     return (
-        <div>
+        <div className ="loginw">
+
             {/* <!--Login in page header--> */}
-            <div className ="circle"> 
+            <div4 className ="circle"> 
               <h1>Welcome to Twans Movie Page</h1>
               
-            </div> 
+            </div4> 
     
           {/* <!--Web page heading--> */}
           {/* <!-- </form> --> */}
      
-        <form class = "box" action ="myLogin.html" method= "POST">
+        {/* <form class = "box" action ="myLogin.html" method= "POST"> */}
+        <form class = "box">
         <div1>
             <h2>
                 <center>Movie USER LOGIN</center>       
