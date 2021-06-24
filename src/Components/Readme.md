@@ -7,3 +7,4 @@ This application allows the user to search for a movie by title and return the f
 -Release year of movie.
 
 Github link-twanjobs68/github.com/io/twans_fs_movie_app
+The backend of this app will connect with database movieuser and favmovies respectiviely
