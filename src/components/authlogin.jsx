@@ -1,22 +1,36 @@
-function authenUser() {
+import React from 'react';
+import{Link} from "react-router-dom";
+import myLogin from './MyLogin';
 
-    var inuser=document.getusernElementById("username").value;
-    var inpassword=document.getElementById("password").value;
+function authenUser(props) {
 
-    if (inuser == "twan" && inpassword == "mine3")
-    {
     
-    alert("Login Successful! ");
-   
-    return false;
+    return (
+        <div>
+            
+            var inuser=document.getusernElementById("username").value;
+            var inpassword=document.getElementById("password").value;
 
-    }
+
+        if (inuser == "twan" && inpassword == "mine3")
+        {
+    
+            alert("Login Successful!")
+   
+                // return false;
+
+        }   
     else
     {
-        alert("Login Unsuccessful! Please try again. ");
+        alert("Login Unsuccessful! Please try again. ")
     }
 
     inuser = " ";
     inpassword = "";
+  
     
+    </div>
+    );
 }
+
+export default authenUser;
