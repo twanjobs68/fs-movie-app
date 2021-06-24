@@ -3,33 +3,33 @@ body{
 padding:0;
 font-family:cursive;
 margin:0;
-background-image: url("/twans_fs_movie_app/Images/pstars.jpg");
+background-image: url("/twans_fs_movie_app/src/Components/Images/pstars.jpg");
 /*background-repeat: no-repeat ;*/
 background-size: cover;
 }
-
+.circle{
+  margin: 150;
+}
 div{
-    
-    
+
     color: white;
-    text-align: center;
     
 }
 
 .box{
-    width: 250px;
-    padding:25px;
+    /* width: 250px;
+    padding:25px; */
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: rgba(133, 111, 111, 0.4);
+    /* background: rgba(133, 111, 111, 0.4); */
     text-align: center;
 }
 
  h2
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: rgb(255, 238, 0);
     text-transform: uppercase;
     font-weight: 400;
